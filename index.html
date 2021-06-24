@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="preconnect" href="https://fonts.gstatic.com" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+			crossorigin="anonymous"
+		/>
+		<!-- Go to www.addthis.com/dashboard to customize your tools -->
+		<script
+			type="text/javascript"
+			src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-60d431e385bb66cb"
+		></script>
+
+		<title>나의 패션스타일</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+
+	<body>
+		<nav class="navbar navbar-expand-lg navbar-light nav-distance">
+			<div class="container-fluid">
+				<a class="navbar-brand" href="#">나의 패션스타일</a>
+				<button
+					class="navbar-toggler"
+					type="button"
+					data-bs-toggle="collapse"
+					data-bs-target="#navbarSupportedContent"
+					aria-controls="navbarSupportedContent"
+					aria-expanded="false"
+					aria-label="Toggle navigation"
+				>
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+						<li class="nav-item">
+							<a class="nav-link active" aria-current="page" href="#">Home</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Link</a>
+						</li>
+						<li class="nav-item dropdown">
+							<a
+								class="nav-link dropdown-toggle"
+								href="#"
+								id="navbarDropdown"
+								role="button"
+								data-bs-toggle="dropdown"
+								aria-expanded="false"
+							>
+								Dropdown
+							</a>
+							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+								<li><a class="dropdown-item" href="#">Action</a></li>
+								<li><a class="dropdown-item" href="#">Another action</a></li>
+								<li><hr class="dropdown-divider" /></li>
+								<li><a class="dropdown-item" href="#">Something else here</a></li>
+							</ul>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"
+								>Disabled</a
+							>
+						</li>
+					</ul>
+					<form class="d-flex">
+						<input
+							class="form-control me-2"
+							type="search"
+							placeholder="Search"
+							aria-label="Search"
+						/>
+						<button class="btn btn-outline-success" type="submit">Search</button>
+					</form>
+				</div>
+			</div>
+		</nav>
+
+		<section class="section">
+			<h1 class="title">인공지능이 본 나의 패션스타일</h1>
+			<h2 class="subtitle">나의 패션은 어떤 스타일일까?</h2>
+		</section>
+
+		<script
+			class="jsbin"
+			src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"
+		></script>
+		<div class="container file-upload">
+			<div class="image-upload-wrap">
+				<input
+					class="file-upload-input"
+					type="file"
+					onchange="readURL(this);"
+					accept="image/*"
+				/>
+				<div class="drag-text">
+					<h3 class="upload-text">사진을 올려놓거나 눌러서 업로드하세요!</h3>
+				</div>
+			</div>
+			<div class="file-upload-content">
+				<img class="file-upload-image" id="fashion-image" src="#" alt="your image" />
+				<div id="loading" class="animated bounce">
+					<div class="spinner-border" role="status">
+						<span class="sr-only"></span>
+					</div>
+					<p class="text-center">AI가 당신의 패션을 분석중입니다.</p>
+				</div>
+				<p class="result-message"></p>
+				<div id="label-container"></div>
+
+				<!-- Go to www.addthis.com/dashboard to customize your tools -->
+				<div class="addthis_inline_share_toolbox"></div>
+
+				<div class="image-title-wrap">
+					<button
+						type="button p-2"
+						class="try-again-btn"
+						onclick="window.location.reload();"
+					>
+						<span class="try-again-text">다른 사진으로 재시도</span>
+					</button>
+				</div>
+			</div>
+		</div>
+		<div id="webcam-container"></div>
+
+		<div id="disqus_thread"></div>
+		<script>
+			/**
+			 *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+			 *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+			/*
+    var disqus_config = function () {
+    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+    */
+			(function () {
+				// DON'T EDIT BELOW THIS LINE
+				var d = document,
+					s = d.createElement('script');
+				s.src = 'https://sechany.disqus.com/embed.js';
+				s.setAttribute('data-timestamp', +new Date());
+				(d.head || d.body).appendChild(s);
+			})();
+		</script>
+		<noscript
+			>Please enable JavaScript to view the
+			<a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript
+		>
+		<!-- Optional JavaScript; choose one of the two! -->
+
+		<!-- Option 1: Bootstrap Bundle with Popper -->
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+			crossorigin="anonymous"
+		></script>
+
+		<!-- Option 2: Separate Popper and Bootstrap JS -->
+		<!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+    -->
+		<script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@1.3.1/dist/tf.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/@teachablemachine/image@0.8/dist/teachablemachine-image.min.js"></script>
+		<script>
+			function readURL(input) {
+				if (input.files && input.files[0]) {
+					var reader = new FileReader();
+
+					reader.onload = function (e) {
+						$('.image-upload-wrap').hide();
+
+						$('.file-upload-image').attr('src', e.target.result);
+						$('.file-upload-content').show();
+
+						$('.image-title').html(input.files[0].name);
+					};
+					reader.readAsDataURL(input.files[0]);
+					init().then(() => {
+						predict();
+						$('#loading').hide();
+					});
+				} else {
+					removeUpload();
+				}
+			}
+
+			function removeUpload() {
+				$('.file-upload-input').replaceWith($('.file-upload-input').clone());
+				$('.file-upload-content').hide();
+				$('.image-upload-wrap').show();
+			}
+			$('.image-upload-wrap').bind('dragover', function () {
+				$('.image-upload-wrap').addClass('image-dropping');
+			});
+			$('.image-upload-wrap').bind('dragleave', function () {
+				$('.image-upload-wrap').removeClass('image-dropping');
+			});
+		</script>
+		<script type="text/javascript">
+			const URL = 'https://teachablemachine.withgoogle.com/models/__z3NCi95/';
+			let model, webcam, labelContainer, maxPredictions;
+			async function init() {
+				const modelURL = URL + 'model.json';
+				const metadataURL = URL + 'metadata.json';
+				model = await tmImage.load(modelURL, metadataURL);
+				maxPredictions = model.getTotalClasses();
+				labelContainer = document.getElementById('label-container');
+				for (let i = 0; i < maxPredictions; i++) {
+					labelContainer.appendChild(document.createElement('div'));
+				}
+			}
+			async function predict() {
+				var image = document.getElementById('fashion-image');
+				const prediction = await model.predict(image, false);
+				prediction.sort((a, b) => parseFloat(b.probability) - parseFloat(a.probability));
+				console.log(prediction[0].className);
+				var resultTitle, resultExplain;
+				switch (prediction[0].className) {
+					case 'minimal':
+						resultTitle = '꾸민 듯 안 꾸민 듯 심플한 미니멀룩';
+						resultExplain =
+							'최소한의 단순한 요소들을 조합하여 큰 효과를 내는 옷차림. 미니멀 조형 예술의 영향을 받아 장식을 최소화하고 절제된 실루엣과 색채를 사용하는 것이 특징.';
+						break;
+					case 'street':
+						resultTitle = '길거리 사람들의 패션 스트릿룩';
+						resultExplain =
+							'주로 10~20대의 젊은 세대를 중심으로 매니아층이 형성되어 있으며, 해외에서는 30~40대의 패션 피플도 꽤 즐기는 패션이다. 자주 변하는 유행을 중심으로 다양한 감성과 다양한 스타일의 종합되는 속성을 가지고 있으며, 이를 보고 많은 디렉터들이 키치적이라고 표현한다.';
+						break;
+					case 'dandy':
+						resultTitle = '멋쟁이 신사 댄디룩';
+						resultExplain =
+							"댄디란 '멋쟁이 신사'라는 뜻으로 본래 19세기 초 영국 등지에서 유행하던 예복 스타일의 댄디즘에서 유래한 용어다. 당시에는 셔츠, 보타이와 조끼의 세 벌을 갖춰 입으며, 격식을 차린 중후한 이미지의 멋을 추구했다. 그러나 현대에 들어와서 댄디룩은 세련되고 기품 있으면서도 간결한 스타일링을 핵심으로 한다. 즉, 격식을 갖춰 입는 슈트보다 좀 더 캐주얼하고 스타일리시한 복장을 뜻한다.";
+						break;
+					case 'casual':
+						resultTitle = '가볍고 편안한 캐주얼룩';
+						resultExplain =
+							'가벼운 또는 편안하다는 의미로 평상복을 의미. 19세기 말부터 아메리카에서 형식주의를 벗어난 의생활 면의 캐주얼화가 발달되어 다른 나라에도 전파됨. 패션용어로서 폭넓게 쓰이고 있음.';
+						break;
+					case 'classic':
+						resultTitle = '깔끔하고 세련된 클래식룩';
+						resultExplain =
+							'일류의, 고전의, 역사적으로 유명한이라는 사전적 의미를 가지고 있다. 패션에서 말하는 클래식 스타일은 유행에 좌우되지 않고 오랫동안 지속되는 스타일을 말합니다. 또는 깔끔한 포멀 스타일(기본 정장 스타일)을 클래식 스타일이라 부르기도 한다.';
+						break;
+					case 'amekaji':
+						resultTitle = '러프하고 활동하기 좋은 아메카지룩';
+						resultExplain =
+							'미국풍의 캐주얼웨어를 총칭하는 말. 90년대 미국 동부 지역 학교들의 학생들이 즐겨 입던 스타일에서 유래되었으며 캘리포니아 스타일에서 볼 수 있는 밝고 개방적인 성향의 스타일이 특징.';
+						break;
+					default:
+						resultTitle = '알수없음';
+						resultExplain = '';
+				}
+				var title =
+					"<div class='" +
+					prediction[0].className +
+					"-fashion-title'>" +
+					resultTitle +
+					'</div>';
+				var explain = "<div class='fashion-explain pt-2'>" + resultExplain + '</div>';
+				$('.result-message').html(title + explain);
+				var barWidth;
+				for (let i = 0; i < maxPredictions; i++) {
+					if (prediction[i].probability.toFixed(2) > 0.1) {
+						barWidth = Math.round(prediction[i].probability.toFixed(2) * 100) + '%';
+					} else if (prediction[i].probability.toFixed(2) >= 0.01) {
+						barWidth = '4%';
+					} else {
+						barWidth = '2%';
+					}
+					var labelTitle;
+					switch (prediction[i].className) {
+						case 'minimal':
+							labelTitle = '미니멀룩';
+							break;
+						case 'street':
+							labelTitle = '스트릿룩';
+							break;
+						case 'dandy':
+							labelTitle = '댄디룩';
+							break;
+						case 'casual':
+							labelTitle = '캐주얼룩';
+							break;
+						case 'classic':
+							labelTitle = '클래식룩';
+							break;
+						case 'amekaji':
+							labelTitle = '아메카지룩';
+							break;
+						default:
+							labelTitle = '알수없음';
+					}
+					var label =
+						"<div class='fashion-label d-flex align-items-center'>" +
+						labelTitle +
+						'</div>';
+					var bar =
+						"<div class='bar-container position-relative container'><div class='" +
+						prediction[i].className +
+						"-box'></div><div class='d-flex justify-content-center align-items-center " +
+						prediction[i].className +
+						"-bar' style='width: " +
+						barWidth +
+						"'><span class='d-block percent-text'>" +
+						Math.round(prediction[i].probability.toFixed(2) * 100) +
+						'%</span></div></div>';
+					labelContainer.childNodes[i].innerHTML = label + bar;
+				}
+			}
+		</script>
+	</body>
+
+	<!-- Copyright (c) 2021 by Aaron Vanston (https://codepen.io/aaronvanston/pen/yNYOXR)
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE. -->
+</html>
