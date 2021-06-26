@@ -326,6 +326,11 @@ body {
 .amekaji-fashion-title {
     color: #9b6b43;
 }
+
+.guide{
+	text-align: center;
+}
+
 .ad-banner{
 	width: 320px;
 	margin: 0 auto;
