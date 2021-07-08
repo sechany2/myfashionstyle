@@ -302,7 +302,7 @@ h2 {
 	height: 2rem;
 	border-radius: 10px;
 	width: 100%;
-	background-color: rgba(117, 204, 84, 0.2);
+	background-color: rgba(84, 141, 212, 0.2);
 }
 .mannish-bar {
 	position: absolute;
@@ -310,7 +310,7 @@ h2 {
 	left: 0;
 	height: 2rem;
 	border-radius: 10px;
-	background-color: rgba(117, 204, 84, 1);
+	background-color: rgba(84, 141, 212, 1);
 }
 .modern-box {
 	position: absolute;
@@ -440,7 +440,7 @@ h2 {
 	color: #e56995;
 }
 .romantic-fashion-title {
-	color: #ff6c0a;
+	color: #75cc54;
 }
 .mannish-fashion-title {
 	color: #548dd4;
@@ -452,13 +452,13 @@ h2 {
 	color: #31849b;
 }
 .ethnic-fashion-title {
-	color: #ffe4e4;
+	color: #31849b;
 }
 .elegance-fashion-title {
 	color: #4b0082;
 }
 .country-fashion-title {
-	color: #fae0e6;
+	color: #a0aabe;
 }
 .calssic-fashion-title {
 	color: #f405e6;
