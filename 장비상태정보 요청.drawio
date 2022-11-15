@@ -1,1 +1,70 @@
-<mxfile host="app.diagrams.net" modified="2022-11-15T01:24:20.834Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.42" etag="TX1teVH9VQdWyaHF6EGj" version="20.5.3" type="github"><diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">7ZjLcpswFIafhmU6RhgbL2Pn0kU6yTSdSbOU4QTUCMQIEeM+fSUQYC5OcGrctNOVpV8XxP/pnMPYsFZhds1xHHxhHlADTbzMsC4MhEyELPmjlK1WTAcVis+Jp7VauCc/QYsTrabEg6QxUTBGBYmbosuiCFzR0DDnbNOc9sRo86kx9qEj3LuYdtUH4omgUB17UuufgfhB+WRzokdCXE7WQhJgj212JOvSsFacMVG0wmwFVLlX+lKsu9ozWh2MQySGLLCidHmV8YW7vZnE0e3DN4Svz/QuL5im+oUN6/x2/UNZWZxabEsr5AvEqpmG9IY8ASWR7C1j4CQEAVyOUC3f1dpSghFYamrczPuU4jgh63zbiVQ4uClPyAt8haTgn6ssjTzwdK8yL+8Izp4rHGpT/RbABWR77TEr0+V1BSYPyLdySnVXNSd9Ux3d3dTUK7bBDnGrFLG+aX61dQ1DNjSPA9igLps2kpiRSOTPtZeGfdHCwbgImM8iTHeBHN/Y/Tdrr9tTu2H2vM/srtfmYiyvrY7XHkliLNyg47kyg8gEcU6JH0lpzYRgYe4e5uJc5RzlvdxKahB5pbKmzH0up+lE5wwlAF4nTQ3xXyZLzH14bR7q58SBYiFjsplQe2zXS+/UTaz5npn9gMsdEpZyF/SiFrvqFO/HOf2HQ8du5qkqb70RO85YoWP/LyFZqxR8mBIy+6vjwD6khPSa3VNCZmN5Pe94zUGkPBpeQHaKBYtBDi09nAS5z2YxvFM2ICPiuzZdtR9V+9PCfndFKVLy25dpWEUZFDe/WWTQvHkFkDVrblEcdbQq4xzho6HnA0G6xrcVWtV5PCTSDgeLBoKd/SmwnaAd+fNh0QEr0dE1lniOAtY8EdihETs9Gdhps0KiduUbGWxZEU6dpM2TJenph4vlNnJ7fqQkLbv1vyfF9PpPKOvyFw==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-11-15T01:25:38.168Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.42" etag="I_0HoOzMD9nWaqHAN8FO" version="20.5.3" type="github">
+  <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
+    <mxGraphModel dx="1038" dy="579" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="RB334l4KaNx4BUG1v3aX-1" value="ui" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="281" y="10" width="100" height="590" as="geometry" />
+        </mxCell>
+        <mxCell id="RB334l4KaNx4BUG1v3aX-2" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="RB334l4KaNx4BUG1v3aX-1">
+          <mxGeometry x="45" y="79" width="10" height="81" as="geometry" />
+        </mxCell>
+        <mxCell id="RB334l4KaNx4BUG1v3aX-3" value="user" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="101" y="10" width="100" height="590" as="geometry" />
+        </mxCell>
+        <mxCell id="RB334l4KaNx4BUG1v3aX-4" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="RB334l4KaNx4BUG1v3aX-3">
+          <mxGeometry x="45" y="150" width="10" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="RB334l4KaNx4BUG1v3aX-5" value="데몬 통신 테스터" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="461" y="10" width="100" height="590" as="geometry" />
+        </mxCell>
+        <mxCell id="RB334l4KaNx4BUG1v3aX-6" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="RB334l4KaNx4BUG1v3aX-5">
+          <mxGeometry x="45" y="94" width="10" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="RB334l4KaNx4BUG1v3aX-7" value="데몬 sw" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="641" y="10" width="100" height="590" as="geometry" />
+        </mxCell>
+        <mxCell id="RB334l4KaNx4BUG1v3aX-8" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="RB334l4KaNx4BUG1v3aX-7">
+          <mxGeometry x="45" y="99" width="10" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="RB334l4KaNx4BUG1v3aX-9" value="장비상태정보 요청 버튼 클릭" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="1" target="RB334l4KaNx4BUG1v3aX-1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="150" y="90" as="sourcePoint" />
+            <mxPoint x="230" y="90" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RB334l4KaNx4BUG1v3aX-10" value="장비상태정보 요청 전달" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="335" y="106" as="sourcePoint" />
+            <mxPoint x="510.5" y="106" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RB334l4KaNx4BUG1v3aX-11" value="장비상태정보 요청" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="1" target="RB334l4KaNx4BUG1v3aX-8">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="510" y="112" as="sourcePoint" />
+            <mxPoint x="685.5" y="112" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RB334l4KaNx4BUG1v3aX-12" value="장비상태정보 전달" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="690" y="138" as="sourcePoint" />
+            <mxPoint x="510.5" y="138" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RB334l4KaNx4BUG1v3aX-13" value="장비상태정보 전달" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="509.5" y="151" as="sourcePoint" />
+            <mxPoint x="330" y="151" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RB334l4KaNx4BUG1v3aX-14" value="장비상태정보 출력" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="329.5" y="163" as="sourcePoint" />
+            <mxPoint x="150" y="163" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
