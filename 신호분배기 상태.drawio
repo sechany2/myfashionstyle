@@ -1,29 +1,29 @@
-<mxfile host="app.diagrams.net" modified="2022-11-15T01:27:27.258Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.42" etag="-6Doy8_-rQTXiIK4OXsQ" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-15T01:27:43.950Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.42" etag="FlR0WzrsYGdA9MwUViDk" version="20.5.3" type="github">
   <diagram id="pif2WjpYg3SQ1ZABzHkp" name="페이지-1">
     <mxGraphModel dx="1038" dy="579" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="HWvmb-3tvk5kH9C78jrE-1" value="ui" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="281" y="10" width="100" height="590" as="geometry" />
+          <mxGeometry x="281" y="10" width="100" height="310" as="geometry" />
         </mxCell>
         <mxCell id="HWvmb-3tvk5kH9C78jrE-2" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="HWvmb-3tvk5kH9C78jrE-1">
           <mxGeometry x="45" y="79" width="10" height="81" as="geometry" />
         </mxCell>
         <mxCell id="HWvmb-3tvk5kH9C78jrE-3" value="user" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="101" y="10" width="100" height="590" as="geometry" />
+          <mxGeometry x="101" y="10" width="100" height="310" as="geometry" />
         </mxCell>
         <mxCell id="HWvmb-3tvk5kH9C78jrE-4" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="HWvmb-3tvk5kH9C78jrE-3">
           <mxGeometry x="45" y="150" width="10" height="20" as="geometry" />
         </mxCell>
         <mxCell id="HWvmb-3tvk5kH9C78jrE-5" value="데몬 통신 테스터" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="461" y="10" width="100" height="590" as="geometry" />
+          <mxGeometry x="461" y="10" width="100" height="310" as="geometry" />
         </mxCell>
         <mxCell id="HWvmb-3tvk5kH9C78jrE-6" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="HWvmb-3tvk5kH9C78jrE-5">
           <mxGeometry x="45" y="94" width="10" height="56" as="geometry" />
         </mxCell>
         <mxCell id="HWvmb-3tvk5kH9C78jrE-7" value="데몬 sw" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="641" y="10" width="100" height="590" as="geometry" />
+          <mxGeometry x="641" y="10" width="100" height="310" as="geometry" />
         </mxCell>
         <mxCell id="HWvmb-3tvk5kH9C78jrE-8" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="HWvmb-3tvk5kH9C78jrE-7">
           <mxGeometry x="45" y="99" width="10" height="20" as="geometry" />
